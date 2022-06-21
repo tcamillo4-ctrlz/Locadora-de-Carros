@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #5a8d9f;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LocadoraController">
+    <top>
+        <MenuBar maxHeight="33.0" minHeight="26.0" prefHeight="33.0" prefWidth="600.0" style="-fx-text-base-color: white; -fx-background-color: gray; -fx-base: black;" BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" onAction="#btnCarro" style="-fx-background-color: trasparent;" text="Carro" />
+               </graphic></Menu>
+            <Menu mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" onAction="#btnCliente" style="-fx-background-color: transparent;" text="Cliente" />
+               </graphic></Menu>
+            <Menu mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" onAction="#btnFuncionario" style="-fx-background-color: trasparent;" text="Funcionário" />
+               </graphic></Menu>
+            </menus>
+        </MenuBar>
+    </top>
+   <bottom>
+      <ImageView fitHeight="85.0" fitWidth="601.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER_RIGHT">
+         <image>
+            <Image url="https://raw.githubusercontent.com/fluffyfatec/Front-/main/domrockbranco.png" />
+         </image>
+         <BorderPane.margin>
+            <Insets right="30.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </bottom>
+</BorderPane>
