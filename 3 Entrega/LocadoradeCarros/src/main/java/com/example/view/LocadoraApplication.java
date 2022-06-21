@@ -17,7 +17,7 @@ public class LocadoraApplication extends Application {
         stage.setTitle("Locadora");
         stage.setScene(scene);
         stage.setResizable(true);
-        stage.getIcons().add(new Image("https://raw.githubusercontent.com/tcamillo4-ctrlz/Locadora-de-Carros/main/Locadora/TelaLocadoradeCarros/Logo/LogoLocadoradeCarros.jpeg"));
+        stage.getIcons().add(new Image("https://raw.githubusercontent.com/tcamillo4-ctrlz/Locadora-de-Carros/blob/main/3%20Entrega/Logo/LogoLocadoradeCarros.jpeg"));
         stage.show();
 
     }

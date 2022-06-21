@@ -31,7 +31,7 @@ public class LocadoraController implements Initializable{
 		Stage stage = new Stage();
 		stage.setTitle("Tela Carro");
 		stage.setResizable(false);
-		stage.getIcons().add(new Image("https://raw.githubusercontent.com/tcamillo4-ctrlz/Locadora-de-Carros/main/Locadora/TelaLocadoradeCarros/Logo/LogoLocadoradeCarros.jpeg"));
+		stage.getIcons().add(new Image("https://raw.githubusercontent.com/tcamillo4-ctrlz/Locadora-de-Carros/blob/main/3%20Entrega/Logo/LogoLocadoradeCarros.jpeg"));
 		stage.setScene(scene);
 		stage.show();
 
@@ -52,7 +52,7 @@ public class LocadoraController implements Initializable{
 		Stage stage = new Stage();
 		stage.setTitle("Tela Cliente");
 		stage.setResizable(false);
-		stage.getIcons().add(new Image("https://raw.githubusercontent.com/tcamillo4-ctrlz/Locadora-de-Carros/main/Locadora/TelaLocadoradeCarros/Logo/LogoLocadoradeCarros.jpeg"));
+		stage.getIcons().add(new Image("https://raw.githubusercontent.com/tcamillo4-ctrlz/Locadora-de-Carros/blob/main/3%20Entrega/Logo/LogoLocadoradeCarros.jpeg"));
 		stage.setScene(scene);
 		stage.show();
 
@@ -73,7 +73,7 @@ public class LocadoraController implements Initializable{
 		Stage stage = new Stage();
 		stage.setTitle("Tela Funcionario");
 		stage.setResizable(false);
-		stage.getIcons().add(new Image("https://raw.githubusercontent.com/tcamillo4-ctrlz/Locadora-de-Carros/main/Locadora/TelaLocadoradeCarros/Logo/LogoLocadoradeCarros.jpeg"));
+		stage.getIcons().add(new Image("https://raw.githubusercontent.com/tcamillo4-ctrlz/Locadora-de-Carros/blob/main/3%20Entrega/Logo/LogoLocadoradeCarros.jpeg"));
 		stage.setScene(scene);
 		stage.show();
 
